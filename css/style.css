@@ -60,7 +60,7 @@ li {
   line-height: 1;
   display: inline-block;
   letter-spacing: .2em;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   /* color: #f39ac7; */
   color: #000000;
 }
@@ -182,6 +182,32 @@ li {
 }
 
 /*--------------------------------
+ About
+---------------------------------*/
+.about-section .inner {
+  max-width: 1000px;
+}
+
+.about-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about-image-wrapper {
+  flex: 0 0 25%;
+  margin-right: 40px;
+}
+
+.about-body {
+  flex: 1;
+}
+
+.about-body p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/*--------------------------------
  Feature
 ---------------------------------*/
 .feature-section .inner {
@@ -241,32 +267,6 @@ li {
 
 .works-url {
   font-size: 10px;
-}
-
-/*--------------------------------
- About
----------------------------------*/
-.about-section .inner {
-  max-width: 1000px;
-}
-
-.about-item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.about-image-wrapper {
-  flex: 0 0 25%;
-  margin-right: 40px;
-}
-
-.about-body {
-  flex: 1;
-}
-
-.about-body p:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 /*--------------------------------
@@ -483,6 +483,17 @@ li {
     opacity: 1;
   }
 
+  /* About */
+  .about-item {
+    display: block;
+  }
+
+  .about-image-wrapper {
+    width: 100px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+  }
+
   /* Feature */
   .feature-item {
     display: block;
@@ -511,17 +522,6 @@ li {
     flex: 0 0 48%;
     margin-right: 0;
     margin-bottom: 30px;
-  }
-
-  /* About */
-  .about-item {
-    display: block;
-  }
-
-  .about-image-wrapper {
-    width: 100px;
-    max-width: 100%;
-    margin: 0 auto 20px;
   }
 
   /* Skill */
