@@ -60,7 +60,7 @@ li {
   line-height: 1;
   display: inline-block;
   letter-spacing: .2em;
-  /* text-transform: lowercase; */
+  text-transform: none;
   /* color: #f39ac7; */
   color: #000000;
 }
