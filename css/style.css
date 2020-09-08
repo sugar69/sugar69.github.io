@@ -7,9 +7,9 @@
 body {
   font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
   "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
-  "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif, 
+  "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif
   /* 追加したフォント */
-  Anton;
+  ;
   font-size: 15px;
   line-height: 1.8;
   letter-spacing: .8px;
@@ -54,8 +54,8 @@ li {
  文字
 ---------------------------------*/
 .heading-primary {
-  font-family: "Cormorant Garamond", serif;
-  /* font-family: Anton, sans-serif; */
+  /* font-family: "Cormorant Garamond", serif; */
+  font-family: Anton, sans-serif;
   font-size: 36px;
   line-height: 1;
   display: inline-block;
