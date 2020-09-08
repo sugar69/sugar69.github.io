@@ -148,6 +148,7 @@ li {
 }
 
 .gnav-list {
+  color: #333;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -155,7 +156,7 @@ li {
   font-weight: bold;
   letter-spacing: .1em;
   text-transform: none;
-  color: #333;
+  
 }
 
 .gnav-item {
