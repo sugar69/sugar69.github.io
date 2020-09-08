@@ -14,7 +14,7 @@ body {
   line-height: 1.8;
   letter-spacing: .8px;
   word-break: break-all;
-  color: #000000;
+  color: #333;
 }
 
 a {
@@ -60,7 +60,7 @@ li {
   line-height: 1;
   display: inline-block;
   letter-spacing: .2em;
-  text-transform: none;
+  text-transform: uppercase;
   /* color: #f39ac7; */
   color: #000000;
 }
