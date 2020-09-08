@@ -60,7 +60,7 @@ li {
   line-height: 1;
   display: inline-block;
   letter-spacing: .2em;
-  text-transform: uppercase;
+  text-transform: none;
   /* color: #f39ac7; */
   color: #000000;
 }
@@ -113,7 +113,7 @@ li {
   display: block;
   margin-bottom: 5px;
   text-align: center;
-  color: #757575;
+  color: #000000;
 }
 
 .logo {
