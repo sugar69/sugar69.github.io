@@ -54,8 +54,8 @@ li {
  文字
 ---------------------------------*/
 .heading-primary {
-  /* font-family: "Cormorant Garamond", serif; */
-  font-family: Anton, sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  /* font-family: Anton, sans-serif; */
   font-size: 36px;
   line-height: 1;
   display: inline-block;
