@@ -105,8 +105,8 @@ li {
   justify-content: center;
   height: 540px;
   /* ↓ヘッダーに画像を追加 */
-  /* background-size: auto 100%; */
-  /* background: url(../img/header/rustic-3441673_1920.jpg) center center; */
+  background-size: auto 100%;
+  background: url(../img/header/header-image.jpg) center center;
 }
 
 .logo-name {
@@ -130,7 +130,7 @@ li {
   line-height: 1;
   display: block;
   letter-spacing: .1em;
-  color: #000000;
+  color: #ffffff;
 }
 
 .logo-text {
@@ -139,6 +139,7 @@ li {
   margin-top: 10px;
   text-align: center;
   letter-spacing: .2em;
+  color: #ffffff;
 }
 
 /*--------------------------------
