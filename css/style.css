@@ -103,12 +103,13 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: url(../img/header/header-image.jpg) center center;
   height: 540px;
   /* ↓ヘッダーに画像を追加 */
   /* background-size: 100% auto; */
   background-size: cover;
   width: 100%;
-  background: url(../img/header/header-image.jpg) center center;
+  /* background: url(../img/header/header-image.jpg) center center; */
 }
 
 .logo-name {
