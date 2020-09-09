@@ -105,9 +105,9 @@ li {
   justify-content: center;
   height: 540px;
   /* ↓ヘッダーに画像を追加 */
-  /* background-size: auto 50%; */
+  /* background-size: 20% auto; */
   background-size: contain;
-  background: url(../img/header/header-image.jpg) center center;
+  background: url(../img/header/header-image.jpg) center right;
 }
 
 .logo-name {
