@@ -103,7 +103,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 540px;
+  /* height: 540px; */
   /* ↓ヘッダーに画像を追加 */
   /* background-size: 10% auto; */
   background-size: contain;
