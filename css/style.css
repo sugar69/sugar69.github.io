@@ -9,7 +9,7 @@ body {
   "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
   "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", /*sans-serif,*/ 
   /* 追加したフォント */
-  Anton, LigatureSymbols,
+  'Anton', 'LigatureSymbols', 
   sans-serif;
   font-size: 15px;
   line-height: 1.8;
